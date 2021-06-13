@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2nd Class Assignment</title>
+    <link rel="icon" href="images/index.png">
+    <style>
+        .myDiv {
+          border: 5px outset blue;
+          background-color: lightblue;    
+          text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!--Table Heading-->
+    <table width="100%" border="1" cellspacing="0">
+        <caption> <h1> 70 HTML TAG. </h1></caption>
+        <tr>
+            <th>Serial No</th>
+            <th>Tag Name</th>
+            <th>Tag</th>
+            <th>Description</th>
+            <th>Example</th>
+        </tr>
+        <tr>
+            <td>01</td>
+            <td>Tittle</td>
+            <td>&lt;title&gt;</td>
+            <td>Defines a title for the document</td>
+            <td>Title on the Title bar. i.e. "2nd Class Assignment"</td>
+        </tr>
+        <tr>
+            <td>02</td>
+            <td>Headings</td>
+            <td>&lt;h1&gt;</td>
+            <td>Defines HTML headings</td>
+            <td><h1>This is a heading.</h1></td>
+        </tr>
+        <tr>
+            <td>03</td>
+            <td>Paragraph Tag</td>
+            <td>&lt;p&gt;</td>
+            <td>Defines a paragraph</td>
+            <td><p>I am Nowshad. And i am a genius. Also i am dying to marry Tibna. Ali said "yeah! I am definitely GONNA save your ass, Bro!</p></td>
+        </tr>
+        <tr>
+            <td>04</td>
+            <td>Line Braking Tag</td>
+            <td>&lt;br&gt;</td>
+            <td>Inserts a single line break</td>
+            <td>Tibna- Oh Nowshad! <br> Nowshad- I love You! <br> Dream Ends! Nowshad Gasping...... <br> <b>Note:-</b>The 4th wall secret is after every line there is a <strong>Line Break</strong> tag. </td>
+        </tr>
+        <tr>
+            <td>05</td>
+            <td>Comment Tag</td>
+            <td>&lt;!--...--&gt;</td>
+            <td>Defines a comment</td>
+            <td><!--This is a COMMENT--> Lol! I know your Puny eyes can't see the Comment by mighty me!</td>
+        </tr>
+        <tr>
+            <td>06</td>
+            <td>Bold Tag</td>
+            <td>&lt;b&gt;</td>
+            <td>Defines bold text</td>
+            <td><b>Bold</b></td>
+        </tr>
+        <tr>
+            <td>07</td>
+            <td>Abbreviation</td>
+            <td>&lt;abbr&gt;</td>
+            <td>Defines an Abbreviation</td>
+            <td><abbr title="Noakhali Science and Technology Uiversity">NSTU</abbr></td>
+        </tr>
+        <tr>
+            <td>08</td>
+            <td>Address Tag</td>
+            <td>&lt;address&gt;</td>
+            <td>Contains Information and Address</td>
+            <td><address>132 M R road, <br> Pahartali, <br> Agra</address></td>
+        </tr>
+        <tr>
+            <td>09</td>
+            <td>BDI Tag</td>
+            <td>&lt;bdi&gt;</td>
+            <td>Isolates a part of text that might be formatted in a different direction from other text outside it</td>
+            <td><p>In the example below, usernames are shown along with the number of points in a contest. If the bdi element is not supported in the browser, the username of the Arabic user would confuse the text (the bidirectional algorithm would put the colon and the number "90" next to the word "User" rather than next to the word "points").</p>
+
+                <ul>
+                 <li>User <bdi>hrefs</bdi>: 60 points</li>
+                 <li>User <bdi>jdoe</bdi>: 80 points</li>
+                 <li>User <bdi>إيان</bdi>: 90 points</li>
+                </ul></td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>BDO Tag</td>
+            <td>&lt;bdo&gt;</td>
+            <td>Overrides the current text direction</td>
+            <td><bdo dir="rtl">Are Nowshad Nah.</bdo></td>
+        </tr><tr>
+            <td>11</td>
+            <td>BlockQuote</td>
+            <td>&lt;blockquote&gt;</td>
+            <td>Defines a section that is quoted from another source</td>
+            <td><blockquote>This is Quoted by Nowshad.</blockquote></td>
+        </tr>
+        <tr>
+            <td>12</td>
+            <td>Citing Tag</td>
+            <td>&lt;cite&gt;</td>
+            <td>Defines the title of a work</td>
+            <td>The book <cite>The Brain</cite>by David Eagleman.</td>
+        </tr>
+        <tr>
+            <td>13</td>
+            <td>Code Tag</td>
+            <td>&lt;code&gt;</td>
+            <td>Defines a piece of computer code</td>
+            <td><p>The HTML <code>button</code> tag defines a clickable button.</p></td>
+        </tr>
+        <tr>
+            <td>14</td>
+            <td>Delete Tag</td>
+            <td>&lt;del&gt;</td>
+            <td>Defines text that has been deleted from a document</td>
+            <td> <p>My favorite color is <del>Red</del> <ins>Blue</ins>!</p> </td>
+        </tr><tr>
+            <td>15</td>
+            <td>Emphasize Tag</td>
+            <td>&lt;em&gt;</td>
+            <td>Defines emphasized text</td>
+            <td><blockquote>I am <em>definitely</em> gonna be a Web Developer.</blockquote> said Nowshad.</td>
+        </tr>
+        <tr>
+            <td>16</td>
+            <td>Alternative Voice Tag</td>
+            <td>&lt;i&gt;</td>
+            <td>Defines a part of text in an alternate voice or mood</td>
+            <td><i>Meh! everything is possible. NOT! hahahaha.</i></td>
+        </tr>
+        <tr>
+            <td>17</td>
+            <td>Insert Tag</td>
+            <td>&lt;ins&gt;</td>
+            <td>Defines a text that has been inserted into a document</td>
+            <td><p>My favorite color is <del>Red</del> <ins>Blue</ins>!</p> </td>
+        </tr>
+        <tr>
+            <td>18</td>
+            <td>Mark Tag</td>
+            <td>&lt;mark&gt;</td>
+            <td>Defines marked/highlighted text</td>
+            <td>Mark my <mark>Word</mark>.</td>
+        </tr>
+        <tr>
+            <td>19</td>
+            <td>Meter Tag</td>
+            <td>&lt;meter&gt;</td>
+            <td>Defines a scalar measurement within a known range (a gauge)</td>
+            <td>My achievement is <meter value=".02" title="2%">100%</meter> </td>
+        </tr>
+        <tr>
+            <td>20</td>
+            <td>Progress Tag</td>
+            <td>&lt;progress&gt;</td>
+            <td>Represents the progress of a task</td>
+            <td>My achievement is <progress value=".02" title="2%">100%</progress> </td>
+        </tr>
+        <tr>
+            <td>21</td>
+            <td>Correction Tag</td>
+            <td>&lt;s&gt;</td>
+            <td>Defines text that is no longer correct</td>
+            <td><p><s>Only 4 Balls left!</s></p>
+                <p>Match is Over!</p></td>
+        </tr>
+        <tr>
+            <td>22</td>
+            <td>Small Tag</td>
+            <td>&lt;small&gt;</td>
+            <td>Defines smaller text</td>
+            <td>Is certain part of Nowshad, <small>small</small>?</td>
+        </tr>
+        <tr>
+            <td>23</td>
+            <td>Strong Semantic Tag</td>
+            <td>&lt;strong&gt;</td>
+            <td>Defines important text</td>
+            <td><strong>NOTE:</strong>I am slowly catching up with you Nowshad.</td>
+        </tr>
+        <tr>
+            <td>24</td>
+            <td>Subscript Tag</td>
+            <td>&lt;sub&gt;</td>
+            <td>Defines subscripted text</td>
+            <td>How Can you be soooo <sub>low</sub>?</td>
+        </tr>
+        <tr>
+            <td>25</td>
+            <td>Superscript Tag</td>
+            <td>&lt;sup&gt;</td>
+            <td>Defines superscripted text</td>
+            <td>This theory is going wayyyyy <sup>over</sup> my head!</td>
+        </tr>
+        <tr>
+            <td>26</td>
+            <td>template Tag</td>
+            <td>&lt;template&gt;</td>
+            <td>Defines a container for content that should be hidden when the page loads</td>
+            <td>The word <template>hidden</template>"hidden" is hidden. </td>
+        </tr>
+        <tr>
+            <td>27</td>
+            <td>Time Declaring Tag</td>
+            <td>&lt;time&gt;</td>
+            <td>Defines a specific time (or datetime)</td>
+            <td>Let us meet <time>Tomorrow at 7 pm</time>. </td>
+        </tr>
+        <tr>
+            <td>28</td>
+            <td>Unarticulate Tag</td>
+            <td>&lt;u&gt;</td>
+            <td>Defines some text that is unarticulated and styled differently from normal text</td>
+            <td> <p>This is some <u>mispeled</u> text.</p> </td>
+        </tr>
+        <tr>
+            <td>29</td>
+            <td>Variable Tag</td>
+            <td>&lt;var&gt;</td>
+            <td>Defines a variable</td>
+            <td><var>A</var> is a variable.</td>
+        </tr>
+        <tr>
+            <td>30</td>
+            <td>Possible Line Break Tag</td>
+            <td>&lt;wbr&gt;</td>
+            <td>Defines a possible line-break</td>
+            <td> <p>To learn AJAX, you must be familiar with the XML<wbr>Http<wbr>Request Object.</p> </td>
+        </tr>
+        <tr>
+            <td>31</td>
+            <td>Form Tag</td>
+            <td>&lt;form&gt;</td>
+            <td>Defines an HTML form for user input</td>
+            <td> 
+            <form action="/action_page.php" method="get">
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname"><br><br>
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname"><br><br>
+                <input type="submit" value="Submit">
+            </form> 
+            </td>
+        </tr>
+        <tr>
+            <td>32</td>
+            <td>Input Tag</td>
+            <td>&lt;input&gt;</td>
+            <td>Defines an input control</td>
+            <td>
+                <form action="/action_page.php" method="get">
+                    <label for="fname">First name:</label>
+                    <input type="text" id="fname" name="fname"><br><br>
+                    <label for="lname">Last name:</label>
+                    <input type="text" id="lname" name="lname"><br><br>
+                    <input type="submit" value="Submit">
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td>33</td>
+            <td>Textarea Tag</td>
+            <td>&lt;textarea&gt;</td>
+            <td>Defines a multiline input control (text area)</td>
+            <td>
+                <label for="w3review">Review of W3Schools:</label>
+
+                <textarea id="w3review" name="w3review" rows="4" cols="50">
+                At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies.
+                </textarea> 
+            </td>
+        </tr>
+        <tr>
+            <td>34</td>
+            <td>Button Tag</td>
+            <td>&lt;button&gt;</td>
+            <td>Defines a clickable button</td>
+            <td> <button type="button">Click Me!</button> </td>
+        </tr>
+        <tr>
+            <td>35</td>
+            <td>Select Tag</td>
+            <td>&lt;select&gt;</td>
+            <td>Defines a drop-down list</td>
+            <td> <label for="cars">Choose a car:</label>
+
+                <select name="cars" id="cars">
+                  <option value="volvo">Volvo</option>
+                  <option value="saab">Saab</option>
+                  <option value="mercedes">Mercedes</option>
+                  <option value="audi">Audi</option>
+                </select> 
+            </td>
+        </tr>
+        <tr>
+            <td>36</td>
+            <td>Option group tag</td>
+            <td>&lt;optgroup&gt;</td>
+            <td>Defines a group of related options in a drop-down list</td>
+            <td>
+                <label for="cars">Choose a car:</label>
+                <select  name="cars" id="cars">
+                  <optgroup label="Swedish Cars">
+                    <option value="volvo">Volvo</option>
+                    <option value="saab">Saab</option>
+                  </optgroup>
+                  <optgroup label="German Cars">
+                    <option value="mercedes">Mercedes</option>
+                    <option value="audi">Audi</option>
+                  </optgroup>
+                </select> 
+            </td>
+        </tr>
+        <tr>
+            <td>37</td>
+            <td>Option Tag</td>
+            <td>&lt;option&gt;</td>
+            <td>Defines an option in a drop-down list</td>
+            <td>
+                <label for="cars">Choose a car:</label>
+
+                <select id="cars">
+                  <option value="volvo">Volvo</option>
+                  <option value="saab">Saab</option>
+                  <option value="opel">Opel</option>
+                  <option value="audi">Audi</option>
+                </select> 
+            </td>
+        </tr>
+        <tr>
+            <td>38</td>
+            <td>Label Tag</td>
+            <td>&lt;label&gt;</td>
+            <td>Defines a label for an &lt;input&gt; element</td>
+            <td>
+                <form action="/action_page.php">
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="male" value="male"><br>
+                    <label for="female">Female</label>
+                    <input type="radio" name="gender" id="female" value="female"><br>
+                    <label for="other">Other</label>
+                    <input type="radio" name="gender" id="other" value="other"><br><br>
+                    <input type="submit" value="Submit">
+                </form> 
+            </td>
+        </tr>
+        <tr>
+            <td>39</td>
+            <td>Fieldset Tag</td>
+            <td>&lt;fieldset&gt;</td>
+            <td>Groups related elements in a form</td>
+            <td>
+                <form action="/action_page.php">
+                    <fieldset>
+                      <legend>Personalia:</legend>
+                      <label for="fname">First name:</label>
+                      <input type="text" id="fname" name="fname"><br><br>
+                      <label for="lname">Last name:</label>
+                      <input type="text" id="lname" name="lname"><br><br>
+                      <label for="email">Email:</label>
+                      <input type="email" id="email" name="email"><br><br>
+                      <label for="birthday">Birthday:</label>
+                      <input type="date" id="birthday" name="birthday"><br><br>
+                      <input type="submit" value="Submit">
+                    </fieldset>
+                </form> 
+            </td>
+        </tr>
+        <tr>
+            <td>40</td>
+            <td>Legend Tag</td>
+            <td>&lt;legend&gt;</td>
+            <td>Defines a caption for a &lt;fieldset&gt; element</td>
+            <td>
+                <form action="/action_page.php">
+                    <fieldset>
+                      <legend>Personalia:</legend>
+                      <label for="fname">First name:</label>
+                      <input type="text" id="fname" name="fname"><br><br>
+                      <label for="lname">Last name:</label>
+                      <input type="text" id="lname" name="lname"><br><br>
+                      <label for="email">Email:</label>
+                      <input type="email" id="email" name="email"><br><br>
+                      <label for="birthday">Birthday:</label>
+                      <input type="date" id="birthday" name="birthday"><br><br>
+                      <input type="submit" value="Submit">
+                    </fieldset>
+                </form> 
+            </td>
+        </tr>
+        <tr>
+            <td>41</td>
+            <td>Datalist Tag</td>
+            <td>&lt;datalist&gt;</td>
+            <td>Specifies a list of pre-defined options for input controls</td>
+            <td>
+                <label for="browser">Choose your browser from the list:</label>
+                <input list="browsers" name="browser" id="browser">
+                
+                <datalist id="browsers">
+                  <option value="Edge">
+                  <option value="Firefox">
+                  <option value="Chrome">
+                  <option value="Opera">
+                  <option value="Safari">
+                </datalist> 
+            </td>
+        </tr>
+        <tr>
+            <td>42</td>
+            <td>Output Tag</td>
+            <td>&lt;output&gt;</td>
+            <td>Defines the result of a calculation</td>
+            <td>
+                <form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+                    <input type="range" id="a" value="50">
+                    +<input type="number" id="b" value="25">
+                    =<output name="x" for="a b"></output>
+                </form> 
+            </td>
+        </tr>
+        <tr>
+            <td>43</td>
+            <td>Iframe Tag</td>
+            <td>&lt;iframe&gt;</td>
+            <td>Defines an inline frame</td>
+            <td>
+                <iframe src="https://www.w3schools.com" title="W3Schools Free Online Web Tutorials">
+                </iframe>
+            </td>
+        </tr>
+        <tr>
+            <td>44</td>
+            <td>Image Tag</td>
+            <td>&lt;img&gt;</td>
+            <td>Defines an image</td>
+            <td>
+                <img src="images/Ali.jpg" alt="A talentless guy smiling" width="50%" title="Alis' Image">
+            </td>
+        </tr>
+        <tr>
+            <td>45</td>
+            <td>Map Tag</td>
+            <td>&lt;map&gt;</td>
+            <td>Defines a client-side image map </td>
+            <td>
+                <img src="images/workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
+
+                <map name="workmap">
+                    <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+                    <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+                    <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm">
+                </map>
+            </td>
+        </tr>
+        <tr>
+            <td>46</td>
+            <td>Area Tag</td>
+            <td>&lt;area&gt;</td>
+            <td>Defines an area inside an image map</td>
+            <td>
+                <img src="images/workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
+
+                <map name="workmap">
+                  <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+                  <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+                  <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm">
+                </map> 
+            </td>
+        </tr>
+        <tr>
+            <td>47</td>
+            <td>Figcaption Tag</td>
+            <td>&lt;figcaption&gt;</td>
+            <td>Defines a caption for a &lt;figure&gt; element</td>
+            <td>
+                <h1>The figure and figcaption element</h1>
+
+                <figure>
+                <img src="images/pic_trulli.jpg" alt="Trulli" style="width:100%">
+                <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+                </figure>
+            </td>
+        </tr>
+        <tr>
+            <td>48</td>
+            <td>Figure Tag</td>
+            <td>&lt;figure&gt;</td>
+            <td>Specifies self-contained content</td>
+            <td>
+                <figure>
+                    <img src="images/pic_trulli.jpg" alt="Trulli" style="width:100%">
+                    <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+                </figure> 
+            </td>
+        </tr>
+        <tr>
+            <td>49</td>
+            <td>Picture Tag</td>
+            <td>&lt;picture&gt;</td>
+            <td>Defines a container for multiple image resources</td>
+            <td>
+                <h1>The picture element</h1>
+
+                <p>Resize the browser window to load different images.</p>
+
+                <picture>
+                <source media="(min-width:650px)" srcset="images/img_pink_flowers.jpg">
+                <source media="(min-width:465px)" srcset="images/img_white_flower.jpg">
+                <img src="images/img_orange_flowers.jpg" alt="Flowers" style="width:auto;">
+                </picture>
+            </td>
+        </tr>
+        <tr>
+            <td>50</td>
+            <td>SVG Tag</td>
+            <td>&lt;svg&gt;</td>
+            <td>Defines a container for SVG graphics</td>
+            <td>
+                <h1>The svg element</h1>
+
+                <svg width="100" height="100">
+                <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+                Sorry, your browser does not support inline SVG.
+                </svg>
+            </td>
+        </tr>
+        <tr>
+            <td>51</td>
+            <td>Audio Tag</td>
+            <td>&lt;audio&gt;</td>
+            <td>Defines sound content</td>
+            <td>
+                <p>Click on the play button to play a sound:</p>
+
+                <audio controls>
+                <source src="audio/horse.ogv" type="audio/ogg">
+                <source src="audio/horse.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+                </audio>
+            </td>
+        </tr>
+        <tr>
+            <td>52</td>
+            <td>Video Tag</td>
+            <td>&lt;video&gt;</td>
+            <td>Defines a video or movie</td>
+            <td>
+                <h1>The video element</h1>
+
+                <video width="320" height="240" controls>
+                <source src="video/movie.mp4" type="video/mp4">
+                <source src="video/movie.ogg" type="video/ogg">
+                Your browser does not support the video tag.
+                </video>
+            </td>
+        </tr>
+        <tr>
+            <td>53</td>
+            <td>Source Tag</td>
+            <td>&lt;source&gt;</td>
+            <td>Defines multiple media resources for media elements (&lt;video&gt;, &lt;audio&gt; and &lt;picture&gt;)</td>
+            <td>
+                <audio controls>
+                    <source src="audio/horse.ogv" type="audio/ogg">
+                    <source src="audio/horse.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </td>
+        </tr>
+        <tr>
+            <td>54</td>
+            <td>Hyperlink Tag</td>
+            <td>&lt;a&gt;</td>
+            <td>Defines a hyperlink</td>
+            <td>
+                <a href="https://www.animixplay.to" target="_blank">Visit AniMixplay for anime.</a> 
+            </td>
+        </tr>
+        <tr>
+            <td>55</td>
+            <td>Track Tag</td>
+            <td>&lt;track&gt;</td>
+            <td>Defines text tracks for media elements (&lt;video&gt; and &lt;audio&gt;)</td>
+            <td>It makes Subtitle to go with the video.</td>
+        </tr>
+        <tr>
+            <td>56</td>
+            <td>Link tag</td>
+            <td>&lt;link&gt;</td>
+            <td>Defines the relationship between a document and an external resource (most used to link to style sheets)</td>
+            <td>
+                <p>That small icon besides the title "2nd Class Assignment" on title bar.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>57</td>
+            <td>Navigation Tag</td>
+            <td>&lt;nav&gt;</td>
+            <td>Defines navigation links</td>
+            <td>
+                <nav>
+                    <a href="https://www.animixplay.to" target="_blank">Go</a>
+                </nav>
+            </td>
+        </tr>
+        <tr>
+            <td>58</td>
+            <td>Ordered List Tag</td>
+            <td>&lt;ol&gt;</td>
+            <td>Defines an ordered list</td>
+            <td>
+                <ol>
+                    <li>Coffee</li>
+                    <li>Tea</li>
+                    <li>Milk</li>
+                </ol>
+            </td>
+        </tr>
+        <tr>
+            <td>59</td>
+            <td>Unordered List Tag</td>
+            <td>&lt;ul&gt;</td>
+            <td>Defines an unordered list</td>
+            <td>
+                <ul>
+                    <li>Coffee</li>
+                    <li>Tea</li>
+                    <li>Milk</li>
+                </ul> 
+            </td>
+        </tr>
+        <tr>
+            <td>60</td>
+            <td>List Tag</td>
+            <td>&lt;li&gt;</td>
+            <td>Defines a list item</td>
+            <td>
+                <ol>
+                    <li>Coffee</li>
+                    <li>Tea</li>
+                    <li>Milk</li>
+                </ol>
+                  
+                <ul>
+                    <li>Coffee</li>
+                    <li>Tea</li>
+                    <li>Milk</li>
+                </ul> 
+            </td>
+        </tr>
+        <tr>
+            <td>61</td>
+            <td>Division Tag</td>
+            <td>&lt;dv&gt;</td>
+            <td>Defines a section in a document</td>
+            <td>
+                <div class="myDiv">
+                    <h2>This is a heading in a div element</h2>
+                    <p>This is some text in a div element.</p>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>62</td>
+            <td>Span Tag</td>
+            <td>&lt;span&gt;</td>
+            <td>Defines a section in a document</td>
+            <td>
+                <p>My mother has <span style="color:blue">blue</span> eyes.</p> 
+            </td>
+        </tr>
+        <tr>
+            <td>63</td>
+            <td>Header Tag</td>
+            <td>&lt;header&gt;</td>
+            <td>Defines a header for a document or section</td>
+            <td>
+                <article>
+                    <header>
+                      <h1>In Header Tag</h1>
+                      <p>Posted by John Doe</p>
+                      <p>Some additional information here</p>
+                    </header>
+                    <footer>
+                    <h1>In footer tag</h1>
+                    Lorem Ipsum dolor set amet....      	</footer>
+                </article>
+            </td>
+        </tr>
+        <tr>
+            <td>64</td>
+            <td>Footer Tag</td>
+            <td>&lt;footer&gt;</td>
+            <td>Defines a footer for a document or section</td>
+            <td>
+                <article>
+                    <header>
+                      <h1>In Header Tag</h1>
+                      <p>Posted by John Doe</p>
+                      <p>Some additional information here</p>
+                    </header>
+                    <footer>
+                    <h1>In footer tag</h1>
+                    Lorem Ipsum dolor set amet....      	</footer>
+                </article>
+            </td>
+        </tr>
+        <tr>
+            <td>65</td>
+            <td>Main Tag</td>
+            <td>&lt;main&gt;</td>
+            <td>Specifies the main content of a document</td>
+            <td>
+                <main>
+                    <h1>Most Popular Browsers</h1>
+                    <p>Chrome, Firefox, and Edge are the most used browsers today.</p>
+                  
+                    <article>
+                      <h2>Google Chrome</h2>
+                      <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+                    </article>
+                  
+                    <article>
+                      <h2>Mozilla Firefox</h2>
+                      <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.</p>
+                    </article>
+                  
+                    <article>
+                      <h2>Microsoft Edge</h2>
+                      <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
+                    </article>
+                </main> 
+            </td>
+        </tr>
+        <tr>
+            <td>66</td>
+            <td>Section Tag</td>
+            <td>&lt;section&gt;</td>
+            <td>Defines a section in a document</td>
+            <td>
+                <section>
+                    <h2>WWF History</h2>
+                    <p>The World Wide Fund for Nature (WWF) is an international organization working on issues regarding the conservation, research and restoration of the environment, formerly named the World Wildlife Fund. WWF was founded in 1961.</p>
+                    </section>
+                    
+                    <section>
+                    <h2>WWF's Symbol</h2>
+                    <p>The Panda has become the symbol of WWF. The well-known panda logo of WWF originated from a panda named Chi Chi that was transferred from the Beijing Zoo to the London Zoo in the same year of the establishment of WWF.</p>
+                </section> 
+            </td>
+        </tr>
+        <tr>
+            <td>67</td>
+            <td>Article Tag</td>
+            <td>&lt;article&gt;</td>
+            <td>Defines an article</td>
+            <td>
+                <article>
+                    <header>
+                      <h1>In Header Tag</h1>
+                      <p>Posted by John Doe</p>
+                      <p>Some additional information here</p>
+                    </header>
+                    <footer>
+                    <h1>In footer tag</h1>
+                    Lorem Ipsum dolor set amet....      	</footer>
+                </article>
+            </td>
+        </tr>
+        <tr>
+            <td>68</td>
+            <td>Aside Tag</td>
+            <td>&lt;aside&gt;</td>
+            <td>Defines content aside from the page content</td>
+            <td>
+                <p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+
+                <aside>
+                <h4>Epcot Center</h4>
+                <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+                </aside> 
+            </td>
+        </tr>
+        <tr>
+            <td>69</td>
+            <td>Details Tag</td>
+            <td>&lt;details&gt;</td>
+            <td>Defines additional details that the user can view or hide</td>
+            <td>
+                <details>
+                    <summary>Epcot Center</summary>
+                    <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+                </details> 
+            </td>
+        </tr>
+        <tr>
+            <td>70</td>
+            <td>Table Caption Tag</td>
+            <td>&lt;caption&gt;</td>
+            <td>Defines a table caption</td>
+            <td>
+                <table border="1" cellspacing="0">
+                    <caption>Monthly savings</caption>
+                    <tr>
+                      <th>Month</th>
+                      <th>Savings</th>
+                    </tr>
+                    <tr>
+                      <td>January</td>
+                      <td>$100</td>
+                    </tr>
+                    <tr>
+                      <td>February</td>
+                      <td>$50</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
